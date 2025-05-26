@@ -8,7 +8,7 @@ WORKDIR /my_repo
 COPY . .
 
 # Compile the program
-RUN gcc -o my_repo main.c
+# RUN gcc -o my_repo main.c
 
 # Set the default command to run your compiled binary
 CMD ["./my_repo"]
